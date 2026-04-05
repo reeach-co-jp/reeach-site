@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>株式会社Reeach</title>
+    <meta
+      name="description"
+      content="株式会社Reeachのコーポレートサイトです。モバイルアプリ開発、技術フォロー、サービス開発支援を行っています。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Cormorant+Garamond:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <p class="brand-mark">Reeach</p>
+          <h1>株式会社Reeach</h1>
+        </div>
+        <nav class="site-nav" aria-label="主要ナビゲーション">
+          <a href="#top">ホーム</a>
+          <a href="#strengths">事業内容</a>
+          <a href="#works">実績</a>
+          <a href="#company">会社概要</a>
+          <a href="#contact">お問い合わせ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card hero-card-large"></div>
+            <div class="hero-card hero-card-small"></div>
+            <div class="hero-accent"></div>
+          </div>
+          <div class="hero-copy">
+            <p class="eyebrow">Mobile App / Product Support</p>
+            <h2>株式会社Reeach</h2>
+            <p class="lead">
+              サイトにお越しいただきありがとうございます。クライアント様のご依頼で制作した作品や個人プロジェクトなどを掲載しています。ご質問がありましたらお気軽にお問い合わせください。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="strengths" class="section section-muted">
+        <div class="container narrow">
+          <h2 class="section-title">事業内容・強み</h2>
+          <p class="section-text">
+            モバイルアプリ開発・技術フォロー・サービス開発支援を中心に、特に iOS
+            アプリやベンチャーの開発立ち上がりを得意としています。代表は大規模なモバイルアプリ開発の経験があり、あらゆるフェーズにおいて足元を固めながら進められる体制づくりを支援します。
+          </p>
+        </div>
+      </section>
+
+      <section id="works" class="section">
+        <div class="container narrow">
+          <h2 class="section-title">最近の実績</h2>
+          <ul class="works-list">
+            <li>株式会社Abentry様 オンラインバトル・ショートムービーSNS iOSアプリ DORM 新規開発</li>
+            <li>株式会社ヤリ様 CMS iOSアプリ Yappy! 追加開発・継続開発</li>
+            <li>株式会社フードニュース様 arTunes STUDIO 新規開発</li>
+            <li>大手家計簿アプリ 継続開発</li>
+            <li>販友・IoTアプリ 新規開発</li>
+            <li>ニュースミュージックアプリ 継続開発</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="company" class="section section-soft">
+        <div class="container company-grid">
+          <div class="company-visual" aria-hidden="true">
+            <div class="device-mockup device-a"></div>
+            <div class="device-mockup device-b"></div>
+            <div class="device-mockup device-c"></div>
+          </div>
+          <div class="company-copy">
+            <h2 class="section-title section-title-left">会社概要</h2>
+            <dl class="company-list">
+              <div>
+                <dt>会社名</dt>
+                <dd>株式会社Reeach</dd>
+              </div>
+              <div>
+                <dt>所在地</dt>
+                <dd>〒107-0062 東京都港区南青山3-13-3 みどり荘</dd>
+              </div>
+              <div>
+                <dt>代表者</dt>
+                <dd>長内 幸太郎（代表取締役社長）</dd>
+              </div>
+              <div>
+                <dt>資本金</dt>
+                <dd>50万円</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container narrow">
+          <h2 class="section-title">お問い合わせ</h2>
+          <form
+            class="contact-form"
+            action="mailto:info@reeach.co.jp"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>
+              <span>名前 *</span>
+              <input type="text" name="name" placeholder="お名前を入力してください" required />
+            </label>
+            <label>
+              <span>メールアドレス *</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="メールアドレスを入力"
+                required
+              />
+            </label>
+            <label>
+              <span>件名</span>
+              <input type="text" name="subject" placeholder="件名を入力してください" />
+            </label>
+            <label>
+              <span>メッセージ</span>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="メッセージを入力"
+              ></textarea>
+            </label>
+            <button type="submit">送信</button>
+            <p class="contact-note">
+              送信するとメールアプリが起動します。後から Formspree などの外部フォームに差し替え可能です。
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>©2021 by 株式会社Reeach. Built for GitHub Pages.</p>
+      </div>
+    </footer>
+  </body>
+</html>
