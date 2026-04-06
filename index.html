@@ -36,10 +36,12 @@
     <main id="top">
       <section class="hero section">
         <div class="container hero-grid">
-          <div class="hero-visual" aria-hidden="true">
-            <div class="hero-card hero-card-large"></div>
-            <div class="hero-card hero-card-small"></div>
-            <div class="hero-accent"></div>
+          <div class="hero-visual">
+            <img
+              class="hero-image"
+              src="assets/me_reeach.png"
+              alt="ノートPCで作業する株式会社Reeach代表"
+            />
           </div>
           <div class="hero-copy">
             <p class="eyebrow">Mobile App / Product Support</p>
@@ -109,42 +111,15 @@
       <section id="contact" class="section">
         <div class="container narrow">
           <h2 class="section-title">お問い合わせ</h2>
-          <form
-            class="contact-form"
-            action="mailto:info@reeach.co.jp"
-            method="post"
-            enctype="text/plain"
-          >
-            <label>
-              <span>名前 *</span>
-              <input type="text" name="name" placeholder="お名前を入力してください" required />
-            </label>
-            <label>
-              <span>メールアドレス *</span>
-              <input
-                type="email"
-                name="email"
-                placeholder="メールアドレスを入力"
-                required
-              />
-            </label>
-            <label>
-              <span>件名</span>
-              <input type="text" name="subject" placeholder="件名を入力してください" />
-            </label>
-            <label>
-              <span>メッセージ</span>
-              <textarea
-                name="message"
-                rows="6"
-                placeholder="メッセージを入力"
-              ></textarea>
-            </label>
-            <button type="submit">送信</button>
-            <p class="contact-note">
-              送信するとメールアプリが起動します。後から Formspree などの外部フォームに差し替え可能です。
+          <div class="contact-card">
+            <p class="contact-lead">
+              ご相談やご依頼は、下記メールアドレスまでお気軽にご連絡ください。
             </p>
-          </form>
+            <a class="contact-mail" href="mailto:osanai@reeach.co.jp">osanai@reeach.co.jp</a>
+            <p class="contact-note">
+              新規開発、既存アプリの改善、技術支援など幅広くご相談いただけます。
+            </p>
+          </div>
         </div>
       </section>
     </main>
